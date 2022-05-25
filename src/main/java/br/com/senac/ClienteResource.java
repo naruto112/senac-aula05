@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("/cliente")
-public class GreetingResource {
+public class ClienteResource {
     Cliente cliente = new Cliente();
 
     @GET
